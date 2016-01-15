@@ -1,0 +1,34 @@
+{
+  "name": "generator-microus",
+  "version": "0.1.0",
+  "description": "Microservices project generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "homepage": "https://github.com/rafoli/generator-microus",
+  "bugs": "https://github.com/rafoli/generator-microus/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rafoli/generator-microus.git"
+  },
+  "author": {
+    "name": "Rafael Oliveira",
+    "email": "rafoli@gmail.com",
+    "url": "https://github.com/rafoli"
+  },
+  "engines": {
+    "node": ">=4.1.1"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "spring-boot",
+    "spring-cloud",
+    "microservices"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "yeoman-generator": "0.21.1"
+  }
+}
