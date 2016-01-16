@@ -1,7 +1,7 @@
 {
   "name": "generator-microus",
   "version": "0.1.0",
-  "description": "Microservices project generator",
+  "description": "Microservices projects based on Spring and Netflix (SpringBoot, SpringCloud, Eureka, Zuul, ConfigServer, Swagger)",
   "license": "MIT",
   "main": "app/index.js",
   "homepage": "https://github.com/rafoli/generator-microus",
@@ -25,10 +25,15 @@
     "yeoman-generator",
     "spring-boot",
     "spring-cloud",
-    "microservices"
+    "microservices",
+    "eureka",
+    "zuul",
+    "configserver",
+    "swagger"
   ],
   "dependencies": {
     "chalk": "^1.0.0",
-    "yeoman-generator": "0.21.1"
+    "yeoman-generator": "0.21.1",
+    "yo-java-helper": "^1.0.0"
   }
 }
