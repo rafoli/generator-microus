@@ -1,0 +1,10 @@
+server:
+  port: 8080
+<% if (props.microserviceType.indexOf('eurekaClient') > -1) { %>
+eureka:
+  instance:
+    metadataMap:
+      instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/<% } %>
